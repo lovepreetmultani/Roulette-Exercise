@@ -1,6 +1,4 @@
 package roxor.games.roulette.controller;
-
-import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 import roxor.games.roulette.model.request.SpinDTO;
 import roxor.games.roulette.model.response.SpinResultDTO;
 import roxor.games.roulette.service.RouletteService;
-
 
 
 @RestController
