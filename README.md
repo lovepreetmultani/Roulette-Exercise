@@ -1,7 +1,7 @@
-#Roulette Service Exercise
+# Roulette Service Exercise
 This is a sample implementation of the Roulette Service, which is designed to handle bets, simulate roulette wheel spins, and resolve bets based on the spin result.
 
-###Overview
+### Overview
 The Roulette Service is responsible for:
 
 Receiving a number of bets and performing any necessary validation.
@@ -9,14 +9,14 @@ Simulating a roulette wheel spin.
 Resolving all bets based on the spin result and returning the results to the client.
 Currently, the only supported bet type is the "Single number" bet, which pays out 36 times the bet amount.
 
-###Implementation Details
+### Implementation Details
 Technologies Used
 Java
 Spring Boot
 Spring Framework
 Maven
 
-###Project Structure
+### Project Structure
 The project is structured as follows:
 
 src/main/java: Contains the Java source code.
@@ -45,7 +45,7 @@ The application will start, and you can access the REST API endpoints.
 REST API Endpoints
 POST /v1/roulette/spin: Submit a spin request with a list of player bets.
 
-####Example Request Body:
+#### Example Request Body:
 
 {
 "playerBets": [
@@ -58,7 +58,7 @@ POST /v1/roulette/spin: Submit a spin request with a list of player bets.
 ]
 }
 
-#####Example Response:
+##### Example Response:
 
 {
 "pocket": 30,
