@@ -1,4 +1,4 @@
-# Roulette Service Exercise
+# Roulette Service
 This is a sample implementation of the Roulette Service, which is designed to handle bets, simulate roulette wheel spins, and resolve bets based on the spin result.
 
 ### Overview
@@ -10,9 +10,8 @@ Resolving all bets based on the spin result and returning the results to the cli
 Currently, the only supported bet type is the "Single number" bet, which pays out 36 times the bet amount.
 
 ### Implementation Details
-Technologies Used
-Java
-Spring Boot
+Java 11
+Spring Boot 2
 Spring Framework
 Maven
 
