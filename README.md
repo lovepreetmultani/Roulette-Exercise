@@ -1,4 +1,4 @@
-# Roulette Service
+## Roulette Service
 This is a sample implementation of the Roulette Service, which is designed to handle bets, simulate roulette wheel spins, and resolve bets based on the spin result.
 
 ### Overview
