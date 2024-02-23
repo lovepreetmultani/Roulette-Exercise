@@ -10,7 +10,7 @@ Resolving all bets based on the spin result and returning the results to the cli
 Currently, the only supported bet type is the "Single number" bet, which pays out 36 times the bet amount.
 
 ### Implementation Details
-Java 11
+Java 17
 Spring Boot 2
 Spring Framework
 Maven
